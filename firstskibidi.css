@@ -4,20 +4,6 @@ body {
 #Skibidi{
     text-decoration: underline;
 }
-#image-container {
-    display: block;
-    margin: 0 auto;
-    --b: 5px; 
-    --c: #0000 90deg, darkblue 0; 
-    padding: 10px;
-    background:
-      conic-gradient(from 90deg  at top    var(--b) left  var(--b), var(--c)) 0 0,
-      conic-gradient(from 180deg at top    var(--b) right var(--b), var(--c)) 100% 0,
-      conic-gradient(from 0deg   at bottom var(--b) left  var(--b), var(--c)) 0 100%,
-      conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--c)) 100% 100%;
-    background-size: 50px 50px; /*toilet*/
-    background-repeat: no-repeat;
-}
 #skibidi2{
     color: rgb(64, 8, 248);
     text-decoration: none;
